@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiMonitor",
+      "LiUserCog",
+      "🇸🇨",
+      "LiCodeXml",
+      "LiInfo"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Networking.md": "LiNetwork",
+  "EC2.md": "LiComputer",
+  "Infra and Automation.md": "LiRocket",
+  "Serverless Computing.md": "LiServerOff",
+  "Serverless Services.md": "LiServerOff",
+  "Storage.md": "LiArchiveRestore",
+  "Databases.md": "LiDatabase",
+  "Deepdive in the AWS infra.md": "LiInfo",
+  "AI.md": "LiCodeXml",
+  "Security.md": "LiUserCog",
+  "Monitoring.md": "LiMonitor"
+}
