@@ -22,6 +22,7 @@ Currently building skills in AWS security, IAM exploitation, and cloud attack ch
 | 01 | [Execute and Identify Credential Abuse in AWS](./credential-abuse-aws/) | 🟢 Beginner | S3, IAM, DynamoDB, Password Spraying, Pacu | ✅ Done |
 | 02 | [Assume Privileged Role with External ID](./assume-privileged-role-external-id/) | 🟡 Intermediate | nmap, ffuf, IAM, Secrets Manager, Role Assumption, External ID | ✅ Done |
 | 03 | Uncover Secrets in CodeCommit and Docker | 🟡 Intermediate | Docker, CodeCommit, Git History, S3 | ✅ Done |
+| 04 | [SSRF to Pwned](./ssrf-to-pwned/) | 🔴 Advanced | SSRF, IMDS, EC2, IMDSv1, S3 | ✅ Done |
 ---
 
 ## 🔗 Attack Chains Covered
@@ -77,9 +78,8 @@ IP Address → Port Scan → ffuf → config.json → AWS Credentials
 ---
 
 ## 📈 Progress
-Labs completed:    2
+Labs completed:    4
 Techniques learned: 12+
-Tools mastered:    7
 
 ---
 
