@@ -10,7 +10,7 @@
 Cybersecurity engineering student specializing in cloud offensive security.  
 Currently building skills in AWS security, IAM exploitation, and cloud attack chains.
 
-**Skills:** AWS CLI · Pacu · Burp Suite · Nmap · ffuf · John the Ripper  
+**Skills:** AWS CLI · Pacu · Burp Suite · Nmap · ffuf · trufflehog · git-secrets  
 **Focus:** Cloud security · Red teaming · AWS offensive techniques
 
 ---
@@ -20,66 +20,10 @@ Currently building skills in AWS security, IAM exploitation, and cloud attack ch
 | # | Lab | Difficulty | Topics | Status |
 |---|---|---|---|---|
 | 01 | [Execute and Identify Credential Abuse in AWS](./credential-abuse-aws/) | 🟢 Beginner | S3, IAM, DynamoDB, Password Spraying, Pacu | ✅ Done |
-| 02 | [Assume Privileged Role with External ID](./assume-privileged-role-external-id/) | 🟡 Intermediate | nmap, ffuf, IAM, Secrets Manager, Role Assumption, External ID | ✅ Done |
-| 03 | Uncover Secrets in CodeCommit and Docker | 🟡 Intermediate | Docker, CodeCommit, Git History, S3 | ✅ Done |
-| 04 | [SSRF to Pwned](./ssrf-to-pwned/) | 🔴 Advanced | SSRF, IMDS, EC2, IMDSv1, S3 | ✅ Done |
----
-
-## 🔗 Attack Chains Covered
-Lab 01 — Credential Abuse
-Public S3 Bucket → Exposed Credentials → IAM Enumeration
-→ DynamoDB Dump → Password Cracking → Console Access → Flag
-Lab 02 — Privilege Escalation via External ID
-IP Address → Port Scan → ffuf → config.json → AWS Credentials
-→ Secrets Manager → Console Access → IAM Enumeration
-→ External ID Discovery → Role Assumption → Flag
-
----
-
-## 🛠️ Tools Used
-
-| Tool | Purpose |
-|---|---|
-| AWS CLI | Interact with AWS services |
-| Pacu | Cloud exploitation framework |
-| ffuf | Web fuzzing and directory discovery |
-| nmap | Network scanning and port discovery |
-| John the Ripper | Password hash cracking |
-| GoAWSConsoleSpray | AWS console password spraying |
-| aws-enumerator | AWS permission enumeration |
-| Burp Suite | Web application testing |
-
----
-
-## 🧠 Key Concepts Learned
-
-- **Credential exposure** via publicly accessible S3 buckets
-- **IAM permission enumeration** using Pacu and aws-enumerator
-- **Privilege escalation** via role assumption
-- **External ID abuse** when trust policies are readable
-- **Secrets Manager** exploitation for lateral movement
-- **Password cracking** and spraying against AWS console
-- **CloudShell** as a pivot point inside compromised accounts
-
----
-
-## 🛡️ Defensive Lessons
-
-| Attack | Defense |
-|---|---|
-| Public S3 bucket with credentials | Enable Block Public Access, never store secrets in files |
-| Weak password hashes | Use bcrypt/argon2, enforce strong passwords |
-| No MFA on IAM users | Enforce MFA for all IAM users |
-| Discoverable External ID | Restrict iam:GetRole permissions |
-| Excessive IAM permissions | Apply least privilege principle |
-| Credentials in config files | Use IAM roles for EC2, AWS Secrets Manager |
-| No threat detection | Enable GuardDuty, CloudTrail |
-
----
-
-## 📈 Progress
-Labs completed:    4
-Techniques learned: 12+
+| 02 | [Assume Privileged Role with External ID](./Assume%20Privileged/) | 🟡 Intermediate | nmap, ffuf, IAM, Secrets Manager, Role Assumption, External ID | ✅ Done |
+| 03 | [Uncover Secrets in CodeCommit and Docker](./Secrets%20codecommit%20and%20docker/) | 🟡 Intermediate | Docker, CodeCommit, Git History, S3, trufflehog | ✅ Done |
+| 04 | [SSRF to Pwned](./SSRF/) | 🔴 Advanced | SSRF, IMDS, EC2, IMDSv1, S3 | ✅ Done |
+| 05 | [Leverage Leaked Credentials for Pwnage](./Leaked%20creds/) | 🟡 Intermediate | git-secrets, .env, Password Reuse, RDS, Secrets Manager | ✅ Done |
 
 ---
 
