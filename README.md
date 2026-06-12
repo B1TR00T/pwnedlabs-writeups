@@ -34,4 +34,6 @@ Currently building skills in AWS security, IAM exploitation, and cloud attack ch
 
 ---
 
+- [Cloudgoat-scenarios](https://github.com/B1TR00T/Cloudgoat-scenarios) — Cloudgoat scenarios writeups
+
 > ⚠️ All labs are performed in authorized environments for educational purposes only.
