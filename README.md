@@ -28,10 +28,7 @@ Currently building skills in AWS security, IAM exploitation, and cloud attack ch
 ---
 
 ## 📬 Connect
-
 - GitHub: [B1TR00T](https://github.com/B1TR00T)
-- Platform: [Intigriti](https://intigriti.com/profile/b1tr00t)
-
 ---
 
 - [Cloudgoat-scenarios](https://github.com/B1TR00T/Cloudgoat-scenarios) — Cloudgoat scenarios writeups
